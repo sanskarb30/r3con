@@ -1,0 +1,4 @@
+requests
+beautifulsoup4
+nmap
+subprocess.run
