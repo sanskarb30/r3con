@@ -12,9 +12,13 @@ sudo apt install -y dos2unix
 
 dos2unix *.sh
 
-chmod +x setup_r3con.sh
+chmod +x install.sh
 
-./setup_r3con.sh
+./install.sh
+
+source venv/bin/activate
+
+python3 secbreach.py <target>
 
 
 Hown this tool works:
