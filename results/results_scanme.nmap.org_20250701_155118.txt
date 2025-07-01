@@ -1,0 +1,246 @@
+
+ ____  ____  ____   ____  ____  ____   ____  ____  _  _
+/ ___)/ ___)(_  _) / ___)(_  _)(_  _) / ___)(_  _)( \/ )
+\___ \\___ \  )(   \___ \  )(    )(  \___ \  )(   \  /
+(____/(____/ (__)  (____/ (__)  (__) (____/ (__)  (__)
+
+    R3CON TOOL
+    
+By Sanskar Bhobaskar
+[1] HTTP Recon (HTTP Headers)
+[2] Subdomain Enumeration (Common/Custom Wordlist)
+[3] Directory Bruteforce (Common/Custom Wordlist)
+[4] Port Scan (Single/Range/Common Ports)
+[5] Basic Banner Grabbing (Common Service Ports)
+[6] Robots.txt Finder
+[7] DNS Lookup (A, CNAME Records)
+[8] Service Version Scan (Detailed Banner Grabbing)
+[9] OS Inference (Basic via Banners/Headers)
+[q] Quit
+
+[+] Gathering HTTP headers for http://scanme.nmap.org...
+
+    URL: http://scanme.nmap.org/
+    Status Code: 200
+    Headers:
+        Date: Tue, 01 Jul 2025 10:19:36 GMT
+        Server: Apache/2.4.7 (Ubuntu)
+        Accept-Ranges: bytes
+        Vary: Accept-Encoding
+        Content-Encoding: gzip
+        Content-Length: 2068
+        Keep-Alive: timeout=5, max=100
+        Connection: Keep-Alive
+        Content-Type: text/html
+
+ ____  ____  ____   ____  ____  ____   ____  ____  _  _
+/ ___)/ ___)(_  _) / ___)(_  _)(_  _) / ___)(_  _)( \/ )
+\___ \\___ \  )(   \___ \  )(    )(  \___ \  )(   \  /
+(____/(____/ (__)  (____/ (__)  (__) (____/ (__)  (__)
+
+    R3CON TOOL
+    
+By Sanskar Bhobaskar
+[1] HTTP Recon (HTTP Headers)
+[2] Subdomain Enumeration (Common/Custom Wordlist)
+[3] Directory Bruteforce (Common/Custom Wordlist)
+[4] Port Scan (Single/Range/Common Ports)
+[5] Basic Banner Grabbing (Common Service Ports)
+[6] Robots.txt Finder
+[7] DNS Lookup (A, CNAME Records)
+[8] Service Version Scan (Detailed Banner Grabbing)
+[9] OS Inference (Basic via Banners/Headers)
+[q] Quit
+
+[+] Starting subdomain enumeration for scanme.nmap.org...
+
+[+] Using default common subdomains.
+[-] No subdomains found.
+
+ ____  ____  ____   ____  ____  ____   ____  ____  _  _
+/ ___)/ ___)(_  _) / ___)(_  _)(_  _) / ___)(_  _)( \/ )
+\___ \\___ \  )(   \___ \  )(    )(  \___ \  )(   \  /
+(____/(____/ (__)  (____/ (__)  (__) (____/ (__)  (__)
+
+    R3CON TOOL
+    
+By Sanskar Bhobaskar
+[1] HTTP Recon (HTTP Headers)
+[2] Subdomain Enumeration (Common/Custom Wordlist)
+[3] Directory Bruteforce (Common/Custom Wordlist)
+[4] Port Scan (Single/Range/Common Ports)
+[5] Basic Banner Grabbing (Common Service Ports)
+[6] Robots.txt Finder
+[7] DNS Lookup (A, CNAME Records)
+[8] Service Version Scan (Detailed Banner Grabbing)
+[9] OS Inference (Basic via Banners/Headers)
+[q] Quit
+
+[+] Starting directory bruteforce on http://scanme.nmap.org...
+
+[+] Using default common directories.
+[+] Found: http://scanme.nmap.org/images (Status: 200)
+
+ ____  ____  ____   ____  ____  ____   ____  ____  _  _
+/ ___)/ ___)(_  _) / ___)(_  _)(_  _) / ___)(_  _)( \/ )
+\___ \\___ \  )(   \___ \  )(    )(  \___ \  )(   \  /
+(____/(____/ (__)  (____/ (__)  (__) (____/ (__)  (__)
+
+    R3CON TOOL
+    
+By Sanskar Bhobaskar
+[1] HTTP Recon (HTTP Headers)
+[2] Subdomain Enumeration (Common/Custom Wordlist)
+[3] Directory Bruteforce (Common/Custom Wordlist)
+[4] Port Scan (Single/Range/Common Ports)
+[5] Basic Banner Grabbing (Common Service Ports)
+[6] Robots.txt Finder
+[7] DNS Lookup (A, CNAME Records)
+[8] Service Version Scan (Detailed Banner Grabbing)
+[9] OS Inference (Basic via Banners/Headers)
+[q] Quit
+
+[+] Starting port scan on scanme.nmap.org...
+
+[+] Scanning single port: 1
+[-] No ports found open in the selected range/list.
+
+ ____  ____  ____   ____  ____  ____   ____  ____  _  _
+/ ___)/ ___)(_  _) / ___)(_  _)(_  _) / ___)(_  _)( \/ )
+\___ \\___ \  )(   \___ \  )(    )(  \___ \  )(   \  /
+(____/(____/ (__)  (____/ (__)  (__) (____/ (__)  (__)
+
+    R3CON TOOL
+    
+By Sanskar Bhobaskar
+[1] HTTP Recon (HTTP Headers)
+[2] Subdomain Enumeration (Common/Custom Wordlist)
+[3] Directory Bruteforce (Common/Custom Wordlist)
+[4] Port Scan (Single/Range/Common Ports)
+[5] Basic Banner Grabbing (Common Service Ports)
+[6] Robots.txt Finder
+[7] DNS Lookup (A, CNAME Records)
+[8] Service Version Scan (Detailed Banner Grabbing)
+[9] OS Inference (Basic via Banners/Headers)
+[q] Quit
+
+[+] Checking for robots.txt on http://scanme.nmap.org/robots.txt...
+
+[-] robots.txt not found (Status: 404)
+
+ ____  ____  ____   ____  ____  ____   ____  ____  _  _
+/ ___)/ ___)(_  _) / ___)(_  _)(_  _) / ___)(_  _)( \/ )
+\___ \\___ \  )(   \___ \  )(    )(  \___ \  )(   \  /
+(____/(____/ (__)  (____/ (__)  (__) (____/ (__)  (__)
+
+    R3CON TOOL
+    
+By Sanskar Bhobaskar
+[1] HTTP Recon (HTTP Headers)
+[2] Subdomain Enumeration (Common/Custom Wordlist)
+[3] Directory Bruteforce (Common/Custom Wordlist)
+[4] Port Scan (Single/Range/Common Ports)
+[5] Basic Banner Grabbing (Common Service Ports)
+[6] Robots.txt Finder
+[7] DNS Lookup (A, CNAME Records)
+[8] Service Version Scan (Detailed Banner Grabbing)
+[9] OS Inference (Basic via Banners/Headers)
+[q] Quit
+
+[+] Performing DNS lookups for scanme.nmap.org...
+
+    A Records (IP Addresses): 45.33.32.156
+    No CNAME records found via simple lookup.
+
+    Note: MX, NS, and TXT records require more advanced DNS querying (e.g., using a dedicated DNS library like 'dnspython') which is beyond simple socket operations. Consider using 'dig' or 'nslookup' for more comprehensive DNS information.
+
+ ____  ____  ____   ____  ____  ____   ____  ____  _  _
+/ ___)/ ___)(_  _) / ___)(_  _)(_  _) / ___)(_  _)( \/ )
+\___ \\___ \  )(   \___ \  )(    )(  \___ \  )(   \  /
+(____/(____/ (__)  (____/ (__)  (__) (____/ (__)  (__)
+
+    R3CON TOOL
+    
+By Sanskar Bhobaskar
+[1] HTTP Recon (HTTP Headers)
+[2] Subdomain Enumeration (Common/Custom Wordlist)
+[3] Directory Bruteforce (Common/Custom Wordlist)
+[4] Port Scan (Single/Range/Common Ports)
+[5] Basic Banner Grabbing (Common Service Ports)
+[6] Robots.txt Finder
+[7] DNS Lookup (A, CNAME Records)
+[8] Service Version Scan (Detailed Banner Grabbing)
+[9] OS Inference (Basic via Banners/Headers)
+[q] Quit
+
+[+] Attempting service version detection on common ports for scanme.nmap.org...
+
+[-] Port 21 (FTP) is closed (connection refused).
+[+] Port 22 (SSH) is open. Attempting banner grab...
+    Banner for SSH on 22:
+        SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.13
+[-] Port 23 (Telnet) is closed (connection refused).
+[-] Port 25 (SMTP) is closed or filtered (timeout).
+[+] Port 80 (HTTP) is open. Attempting banner grab...
+    Banner for HTTP on 80:
+        HTTP/1.1 200 OK
+        Date: Tue, 01 Jul 2025 10:21:02 GMT
+        Server: Apache/2.4.7 (Ubuntu)
+        Accept-Ranges: bytes
+        Vary: Accept-Encoding
+[-] Port 110 (POP3) is closed (connection refused).
+[-] Port 143 (IMAP) is closed (connection refused).
+[-] Port 443 (HTTPS) is closed (connection refused).
+[-] Port 3306 (MySQL) is closed (connection refused).
+[-] Port 3389 (RDP) is closed (connection refused).
+[-] Port 5900 (VNC) is closed (connection refused).
+[-] Port 8080 (HTTP-Proxy) is closed (connection refused).
+
+ ____  ____  ____   ____  ____  ____   ____  ____  _  _
+/ ___)/ ___)(_  _) / ___)(_  _)(_  _) / ___)(_  _)( \/ )
+\___ \\___ \  )(   \___ \  )(    )(  \___ \  )(   \  /
+(____/(____/ (__)  (____/ (__)  (__) (____/ (__)  (__)
+
+    R3CON TOOL
+    
+By Sanskar Bhobaskar
+[1] HTTP Recon (HTTP Headers)
+[2] Subdomain Enumeration (Common/Custom Wordlist)
+[3] Directory Bruteforce (Common/Custom Wordlist)
+[4] Port Scan (Single/Range/Common Ports)
+[5] Basic Banner Grabbing (Common Service Ports)
+[6] Robots.txt Finder
+[7] DNS Lookup (A, CNAME Records)
+[8] Service Version Scan (Detailed Banner Grabbing)
+[9] OS Inference (Basic via Banners/Headers)
+[q] Quit
+
+[+] Attempting very basic OS inference for scanme.nmap.org...
+
+    Note: OS detection without advanced fingerprinting (like Nmap) is highly unreliable.
+    Inference below is based on common service banners and HTTP headers only, and can be inaccurate or spoofed.
+    HTTP Server header: Apache/2.4.7 (Ubuntu)
+    Inference: Likely Linux/Unix (Apache or Nginx web server)
+    SSH Banner (Port 22): SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.13
+    Inference: Likely Linux/Unix (OpenSSH)
+
+ ____  ____  ____   ____  ____  ____   ____  ____  _  _
+/ ___)/ ___)(_  _) / ___)(_  _)(_  _) / ___)(_  _)( \/ )
+\___ \\___ \  )(   \___ \  )(    )(  \___ \  )(   \  /
+(____/(____/ (__)  (____/ (__)  (__) (____/ (__)  (__)
+
+    R3CON TOOL
+    
+By Sanskar Bhobaskar
+[1] HTTP Recon (HTTP Headers)
+[2] Subdomain Enumeration (Common/Custom Wordlist)
+[3] Directory Bruteforce (Common/Custom Wordlist)
+[4] Port Scan (Single/Range/Common Ports)
+[5] Basic Banner Grabbing (Common Service Ports)
+[6] Robots.txt Finder
+[7] DNS Lookup (A, CNAME Records)
+[8] Service Version Scan (Detailed Banner Grabbing)
+[9] OS Inference (Basic via Banners/Headers)
+[q] Quit
+
+Exiting Security Breach. Generating results file...
